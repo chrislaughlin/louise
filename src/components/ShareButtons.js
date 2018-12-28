@@ -34,18 +34,18 @@ class ShareButtons extends PureComponent {
                 <FacebookShareButton url={shareUrl}>
                     <FacebookIcon round size={32}/>
                 </FacebookShareButton>
-                <GooglePlusShareButton url={shareUrl}>
-                    <TwitterIcon round size={32}/>
-                </GooglePlusShareButton>
                 <LinkedinShareButton url={shareUrl}>
-                    <GooglePlusIcon round size={32}/>
+                    <LinkedinIcon round size={32}/>
                 </LinkedinShareButton>
                 <TwitterShareButton url={shareUrl}>
-                    <LinkedinIcon round size={32}/>
+                    <TwitterIcon round size={32}/>
                 </TwitterShareButton>
                 <EmailShareButton url={shareUrl}>
                     <EmailIcon round size={32}/>
                 </EmailShareButton>
+                <GooglePlusShareButton url={shareUrl}>
+                    <GooglePlusIcon round size={32}/>
+                </GooglePlusShareButton>
             </div>
         )
     }
