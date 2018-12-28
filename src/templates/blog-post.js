@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
+import ShareButtons from '../components/ShareButtons';
 
 class BlogPostTemplate extends React.Component {
     render() {
@@ -22,7 +23,7 @@ class BlogPostTemplate extends React.Component {
                     </span>
                     <div dangerouslySetInnerHTML={{ __html: post.html }} />
                     <hr/>
-
+                    <ShareButtons/>
                     <ul>
                         <li>
                             {previous && (

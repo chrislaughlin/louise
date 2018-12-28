@@ -11,4 +11,18 @@
         text-transform: uppercase;
         letter-spacing: 1px;
     }
+
+    a {
+        font-weight: 700;
+    }
+
+    ul {
+        list-style-type: square;
+        padding-left: 45px;
+        margin-bottom: 20px;
+        li {
+            margin-bottom: 12px;
+            list-style: square;
+        }
+    }
 }
