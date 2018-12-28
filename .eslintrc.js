@@ -15,5 +15,9 @@ module.exports = {
       "experimentalObjectRestSpread": true,
       "jsx": true,
     },
+  },
+  "rules": {
+    "max-len": ["error", { "code": 120 }],
+    "indent": ["error", 4]
   }
 }

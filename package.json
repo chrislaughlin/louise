@@ -30,6 +30,7 @@
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.13",
+    "sharp": "^0.21.1",
     "typeface-merriweather": "0.0.43",
     "typeface-montserrat": "0.0.43",
     "typography": "^0.16.17",
@@ -52,7 +53,7 @@
   },
   "scripts": {
     "dev": "gatsby develop",
-    "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
+    "lint": "eslint --ext .js,.jsx --ignore-pattern public --fix .",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "develop": "gatsby develop",
