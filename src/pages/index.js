@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
@@ -27,6 +28,15 @@ class BlogIndex extends React.Component {
                                     </Link>
                                 </h3>
                                 <small>{node.frontmatter.date}</small>
+                                {
+                                    node.frontmatter.featuredImage &&
+                                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                                        <Img
+                                            fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
+                                            className="featuredImage"
+                                        />
+                                    </Link>
+                                }
                                 <p dangerouslySetInnerHTML={{ __html: node.excerpt }}/>
                             </div>
                         )
@@ -56,6 +66,13 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            featuredImage {
+                childImageSharp{
+                    fluid(maxWidth: 400, maxHeight: 250) {
+                      ...GatsbyImageSharpFluid
+                    }
+                }
+            }
           }
         }
       }
