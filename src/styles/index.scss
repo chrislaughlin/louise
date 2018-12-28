@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700');
 @import '../../node_modules/modern-normalize/modern-normalize.css';
 
+//Mixins
+@import "mixins/postTitle";
 //Imports
 @import "breakpoints";
 @import "logo";
 @import "layout";
 @import "menu";
 @import "content";
+@import "post";
+@import "posts";
+
 
 body {
     font-family: 'Lato', sans-serif;
@@ -23,9 +28,20 @@ body {
 
 // Global styles
 
+//Text
 p {
     font-size: 16px;
     line-height: 26px;
+}
+
+//Links
+a, a:visited {
+    color: #f49899;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 

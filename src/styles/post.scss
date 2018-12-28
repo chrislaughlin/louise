@@ -1,0 +1,14 @@
+.post-content {
+    h1 {
+        @include postTitle;
+    }
+
+    .post-date {
+        font-family: "Open Sans", sans-serif;
+        font-size: 10px;
+        font-style: italic;
+        color: #939393;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+}
