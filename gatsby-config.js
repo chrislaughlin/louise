@@ -1,11 +1,11 @@
 module.exports = {
     siteMetadata: {
-        title: `Louise's Blog`,
+        title: `Liffy Designs`,
         author: `Louise Laughlin`,
-        description: `This is the description of your site.`,
-        siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+        description: `Liffy Designs.`,
+        siteUrl: `https://stupefied-carson-ed0ce2.netlify.com/`,
         social: {
-            twitter: `kylemathews`,
+            instagram: `louiselaughlin_`,
         },
     },
     plugins: [
@@ -68,6 +68,7 @@ module.exports = {
         },
         `gatsby-plugin-offline`,
         `gatsby-plugin-react-helmet`,
-        `gatsby-plugin-sass`
+        `gatsby-plugin-sass`,
+        `gatsby-plugin-favicon`
     ],
 }
