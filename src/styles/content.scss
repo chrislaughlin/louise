@@ -1,0 +1,19 @@
+.content {
+    margin: 0 auto;
+
+    @include for-size(phone-only) {
+        width: 300px;
+    }
+    @include for-size(tablet-portrait-up) {
+        width: 480px;
+    }
+    @include for-size(tablet-landscape-up) {
+        width: 726px;
+    }
+    @include for-size(desktop-up) {
+        width: 940px;
+    }
+    @include for-size(big-desktop-up) {
+        width: 500px;
+    }
+}

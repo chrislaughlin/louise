@@ -17,7 +17,9 @@ class Layout extends React.Component {
                     showHome={location.pathname !== rootPath}
                     siteTitle={title}
                 />
-                {children}
+                <div className="content">
+                    {children}
+                </div>
                 <footer>
                     © Liffy Designs
                 </footer>
