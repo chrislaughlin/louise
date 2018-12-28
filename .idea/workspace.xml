@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b34e21-cfde-4904-bfb8-36ebe570cae2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/styles/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/post.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blog-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShareButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShareButtons.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,10 +19,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/styles/layout.scss">
+        <entry file="file://$PROJECT_DIR$/src/components/ShareButtons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="345">
+              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,11 +96,11 @@
         <option value="$PROJECT_DIR$/src/styles/mixins/postTitle.scss" />
         <option value="$PROJECT_DIR$/src/styles/posts.scss" />
         <option value="$PROJECT_DIR$/src/styles/index.scss" />
-        <option value="$PROJECT_DIR$/src/components/ShareButtons.js" />
         <option value="$PROJECT_DIR$/src/styles/sharebuttons.scss" />
         <option value="$PROJECT_DIR$/src/templates/blog-post.js" />
         <option value="$PROJECT_DIR$/src/styles/post.scss" />
         <option value="$PROJECT_DIR$/src/styles/layout.scss" />
+        <option value="$PROJECT_DIR$/src/components/ShareButtons.js" />
       </list>
     </option>
   </component>
@@ -437,13 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ShareButtons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -482,6 +476,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ShareButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
